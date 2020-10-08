@@ -4,7 +4,7 @@ function getProjectData(){
     //But for now...
     return [
         {
-            imageSrc: "./assets/imageVisualizationPrediction.png",
+            imageSrc: "./assets/ImageVisualizationPrediction.png",
             imageCaption: "Image Prediction App",
             name: "Detect Concepts from Images",
             contextText: {
