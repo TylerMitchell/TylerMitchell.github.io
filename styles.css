@@ -1,0 +1,178 @@
+:root {
+    --section-color-1: #aaaaaa;
+    --section-color-2: #999999;
+}
+
+#jumboContent {
+    background-image: url("./assets/chinh-le-duc-poK5c-QWy1E-unsplash.jpg");
+    background-position: bottom;
+    background-size: cover;
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.sanista {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+label {
+    width: 150px;
+}
+
+#projects {
+    background-color: #FDCF00;
+}
+
+#contact {
+    background-color: green;
+}
+#contactForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#linkedInSVG {
+    width: 32px;
+    height: 32px;
+}
+
+#downloadSVG {
+    width: 32px;
+    height: 32px;
+}
+
+#githubSVG {
+    width: 32px;
+    height: 32px;
+}
+
+#resumeButtonContainer {
+    justify-content: center;
+}
+
+#fs-frm {
+    text-align: center;
+    background-color: #FE9F4A;
+}
+
+#aboutMe {
+    background-color: #FE9F4A;
+}
+#aboutText {
+    width: 60%;
+    font-family: 'Secular One', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerSpacing {
+    margin-left: 15px;
+}
+
+.stickyMargin {
+    scroll-margin-top: 3em;
+}
+
+#navContainer {
+    position: relative;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: #41C4DC;
+}
+
+.tagNames {
+    font-style: italic;
+}
+
+.clickable {
+    cursor: pointer
+}
+
+.card {
+    opacity: 1;
+    border: 2px dashed #EA472C;
+    padding: 3px;
+    border-style: ridge;
+    -webkit-box-shadow: 6px 7px 4px 0px rgba(0,0,0,0.62);
+    -moz-box-shadow: 6px 7px 4px 0px rgba(0,0,0,0.62);
+    box-shadow: 6px 7px 4px 0px rgba(0,0,0,0.62);
+    top: 0px;
+}
+
+.card:hover {
+    top: -5px;
+    transition: top 0.2s;
+}
+
+.fadeOut {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.myNav {
+    background-color: #EA472C;
+}
+
+.nav-link, .jumpListTag{
+    color: black;
+}
+
+.nav-link:hover, .jumpListTag:hover{
+    color: #555555;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    text-indent: 2em;
+}
+
+.buttonColor {
+    background-color: #41C4DC;
+}
+
+.buttonColor:hover {
+    background-color: #30B0D0;
+    /*color: black;*/
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+#light {
+    display: none;
+    position: absolute;
+    width: 4000px;
+    height: 4000px;
+    box-shadow: inset 0 0 1875px 1875px #000;
+    background: #fff;
+    z-index: 19;
+}
+
+.light-off {
+    box-shadow: inset 0 0 150px 200px #000 !important;
+}
+
+html {
+    overflow-x: hidden;
+}
+body * {
+    z-index: 20;
+    color: rgba(0,0,0,1.00);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.hideNavBg {
+    background-color: rgba(0,0,0,0);
+}

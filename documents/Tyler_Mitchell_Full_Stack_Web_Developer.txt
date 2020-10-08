@@ -1,0 +1,59 @@
+	 TYLER MITCHELL 
+FULL STACK WEB DEVELOPERCONTACT
+
+ 317.426.0847
+ tylermitchellisawesome@gmail.com
+ [INSERT WEBSITE HERE]PROFILE
+
+Hi, I’m Tyler. I create new things and connect you to solutions through automation.
+In my work, I believe the best way to innovate is to combine ever-growing experiences with the best tools in the industry and to not shy away from the work. A crucial part of innovation is making sure any solution is sustainable in its implementation. I consider these factors as I forge new paths forward in the areas of quality control, software development, and process improvement.
+I find myself gravitating towards industry research and game design in my spare time. I participate in Global Game Jam, among other game jams, throughout the year. I also enjoy plenty of board games, Magic: The Gathering, No Man’s Sky, and playing with my cat, Beatrice.
+The tools I use are JavaScript, C#, HTML5, CSS, NodeJS, and Unity.SKILLS
+
+? ANALYTICAL THINKER
+? ADAPTABLE
+? ORGANIZED
+? DEPENDABLE
+? SELF-MOTIVATED
+? EFFICIENTINDUSTRY EXPERIENCE
+
+Inventory Control Specialist
+Pitney Bowes, June 2019-December 2019
+* Generated optimal walking paths to fix unknowns with Excel
+* Added and removed floor locations to improve warehouse workflow
+* Performed cycle counts on Order Picker
+
+Quality Auditor
+UNFI, May 2017 – February 2019
+* Built auditing software to automatically detect mis-picks and document additional quality errors such as product hanging over pallets and liquids stacked on their sides.
+* Audited all outbound processes, including replenishment, picking, loading, and invoicing.
+
+Freelance Software Developer
+Self-Employed, May 2017- June 2018
+* Created educational minigames in Unity3D and C# to aid in teaching AP Biology.
+* Combined the concepts of personality theory and microeconomics to assist in creating a sociological simulation game to help students maximize social cohesion and economic productivity by using JavaScript (ES6), NodeJS, HTML, and CSS
+
+ICQA Developer (Tier IV Associate)
+Amazon, April 2016 – April 2017
+Tier I Associate
+March 2015 – April 2016
+* Increased departmental efficiency with Excel through one-on-one education and workflow demonstrations
+* Crafted new applications to streamline internal processes, including inventory storage, safety communications, and Excel report automation
+Unity 3D / Android Developer
+Vision Three Creative, LLC, March 2014 – October 2014
+* Constructed the user interface of a custom Android application used to control an embedded medical device
+* Updated and maintained applications for a large client base
+* Originated demonstrations of AR and VR applications for clients
+Freelance Software Developer
+Self-Employed, May 2011 – July 2014
+* Developed AI and pathfinding solutions for all game enemies in Dreamland Delivery using A* and B-Splines in C# for Puca Studios
+* Produced educational Flash games for the Indianapolis Children’s MuseumEDUCATION
+
+IUPUI
+2008-2012
+Computer Science
+Completed 90 credit hours towards a B.S. degree, but left due to a family health emergency.
+
+
+
+

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyler Mitchell | Portfolio</title>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./styles.css" >
+</head>
+<body>
+  <div id="light"></div>
+    <header>
+        <div id="jumboContent" class="jumbotron jumbotron-fluid mb-0">
+            <div class="container">
+              <h1 id="jumboText" class="display-3 sanista">Tyler Mitchell</h1>
+              <p class="pl-3 lead sanista">- Just the guy you need.</p>
+            </div>
+          </div>
+    </header>
+
+    <section id="navigation" class="mynav sticky-top mb-0">
+      <div id="navContainer" class="d-flex flex-row justify-content-between">
+          <div></div>
+          <ul id="mainNav" class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link h3" href="#aboutMe">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h3" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h3" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <button id="darkModeButton" type="button" class="btn buttonColor">Try the New Dark Mode!</button>
+        </div>
+    </section>
+    
+    <section id="aboutMe" class="stickyMargin mb-0 pl-5">
+      <div id="aboutHeader" class="pl-5">
+        <h4 class="display-4 sanista">About Me</h4>
+      </div>
+      <p id="aboutText" class="h4" >Hello I'm Tyler Mitchell and I want to be your Full-Stack Developer. I work in whatever language or tool suits the task. I pickup new tools rapidly and always love the challenge of solving new problems. I have loved software development and especially game development since I was 13 and discovered Basic on an old DOS computer. In the last few years I have worked on Games, VR/AR projects, algorithm development, Full-Stack web development, basic electronics design (Arduino/RaspberryPi), and a lot more. I'm ready for a new challenge, do you have it?</p>
+      <div class="pb-4"></div>
+    </section>
+    
+    <section id="projects" class="stickyMargin mt-0">
+        <div class="container-fluid pl-5">
+            <div id="projectHeader" class="pl-5">
+              <h4 class="display-4 sanista">Projects</h4>
+            </div>
+            <hr />
+            <div id="jumpList" class="">
+               <ul id="jumpListContainer" class="d-flex flex-row justify-content-center list-inline list-unstyled"></ul>
+            </div>
+            <hr />
+            <div id="cardContainer" class="card-deck">
+              <!--Cards added by javascript from template -->
+              
+            </div>
+            <div id="resumeButtonContainer" class="row align-items-center mt-3 p-3 col-12">
+              <div class="btn-group dropup">
+                <button type="button" class="btn btn-lg buttonColor dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Get my Resume!
+                </button>
+                <div class="dropdown-menu">
+                  <form method="get" action="./documents/Tyler_Mitchell_Full_Stack_Web_Developer.pdf">
+                    <button id="pdfBtn" type="submit" class="btn dropdown-item">
+                      PDF 
+                      <img id="downloadSVG" class="float-right"src="./assets/downloadIcon.svg" /> 
+                    </button>
+                  </form>
+                  <form method="get" action="./documents/Tyler_Mitchell_Full_Stack_Web_Developer.docx">
+                    <button id="docxBtn" type="submit" class="btn dropdown-item">
+                      DOCX 
+                      <img id="downloadSVG" class="float-right"src="./assets/downloadIcon.svg" />
+                    </button>
+                  </form>
+                  <form method="get" action="./documents/Tyler_Mitchell_Full_Stack_Web_Developer.txt">
+                    <button id="txtBtn" type="submit" class="btn dropdown-item">
+                      TXT 
+                      <img id="downloadSVG" class="float-right"src="./assets/downloadIcon.svg" />
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section id="contact" class="stickyMargin pl-5">
+      <div id="contactHeader" class="pl-5">
+        <h4 class="display-4 sanista">Contact Me:</h4>
+      </div>
+      <div id="contactForm" class="d-flex flex-row justify-content-center">
+        <form id="fs-frm" class="mb-3 mt-3 p-3 border rounded" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/mgepeanp" method="post">
+          <fieldset id="fs-frm-inputs">
+              <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input class="form-control-lg" type="text" name="name" id="full-name" placeholder="First and Last" required="">
+              </div>
+              <div class="form-group">
+                <label for="email-address">Email Address</label>
+                <input class="form-control-lg" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" rows="5" name="message" id="message" placeholder="Enter your message for me here." required></textarea>
+              </div>
+              <div>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+              </div>
+          </fieldset>
+          <button type="submit" class="btn buttonColor">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="pt-1 pb-1">
+        <div id="githubLink" class="footerSpacing" > 
+            <img id="githubSVG" src="assets/github.svg" />
+            <a href="https://github.com/TylerMitchell">Github</a>
+        </div>
+        <div id="linkedinLink" class="footerSpacing" > 
+            <img id="linkedInSVG" src="assets/linkedin.svg" /> 
+            <a href="https://www.linkedin.com/in/tyler-mitchell-67506730/">LinkedIn</a>
+        </div>
+        <span id="copyright" class="footerSpacing font-weight-bold mt-1 sanista" >&copy; 2020 Tyler Mitchell</span>
+    </footer>
+
+    <template id="projectCard">
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-5">
+        <div class="card h-100" style="">
+          <img class="card-img-top" src="./assets/omar-flores-lQT_bOWtysE-unsplash.jpg" alt="Project Image">
+          <div class="card-body">
+            <h5 class="card-title">Project Name</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">Tags: <span class="tagNames"></span></p>
+          </div>
+          <div class="card-footer">
+            <ul class="nav align-items-center nav-pills card-header-pills">
+              <li class="nav-item">
+                <a class="nav-link buttonColor" href="#">View</a>
+              </li>
+              <li class="pl-3 nav-item nav-pills card-header-pills">
+                <a class="nav-link buttonColor" href="#">Github Source</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </template>
+    <template id="jumpItem">
+      <li class="clickable p-1 h5"><span class="jumpListTag"></span></li>
+    </template>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- My Code -->
+    <script type="text/javascript" src="./main.js">
+    </script>
+</body>
+</html>
