@@ -1,6 +1,12 @@
 :root {
-    --section-color-1: #aaaaaa;
-    --section-color-2: #999999;
+    --red-shade: #EA472C;
+    --orange-shade: #FE9F4A;
+    --yellow-shade: #FDCF00;
+    --green-shade: green;
+    --blue-shade:  #41C4DC;
+    --btn-hover: #30B0D0;
+    --nav-text-shade: #000000;
+    --nav-text-hover: #555555;
 }
 
 #jumboContent {
@@ -21,11 +27,11 @@ label {
 }
 
 #projects {
-    background-color: #FDCF00;
+    background-color: var(--yellow-shade);
 }
 
 #contact {
-    background-color: green;
+    background-color: var(--green-shade);
 }
 #contactForm {
     display: flex;
@@ -54,17 +60,14 @@ label {
 
 #fs-frm {
     text-align: center;
-    background-color: #FE9F4A;
+    background-color: var(--orange-shade);
 }
 
 #aboutMe {
-    background-color: #FE9F4A;
+    background-color: var(--orange-shade);
 }
 #aboutText {
-    width: 60%;
     font-family: 'Secular One', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .footerSpacing {
@@ -84,7 +87,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: start;
-    background-color: #41C4DC;
+    background-color: var(--blue-shade);
 }
 
 .tagNames {
@@ -97,7 +100,7 @@ footer {
 
 .card {
     opacity: 1;
-    border: 2px dashed #EA472C;
+    border: 2px dashed var(--red-shade);
     padding: 3px;
     border-style: ridge;
     -webkit-box-shadow: 6px 7px 4px 0px rgba(0,0,0,0.62);
@@ -117,15 +120,21 @@ footer {
 }
 
 .myNav {
-    background-color: #EA472C;
+    background-color: var(--red-shade);
 }
 
 .nav-link, .jumpListTag{
-    color: black;
+    color: var(--nav-text-shade);
 }
 
 .nav-link:hover, .jumpListTag:hover{
-    color: #555555;
+    color: var(--nav-text-hover);
+}
+
+@media (pointer: none) {
+    #darkModeButton {
+        display: none;
+    }
 }
 
 p {
@@ -135,16 +144,16 @@ p {
 }
 
 .buttonColor {
-    background-color: #41C4DC;
+    background-color: var(--blue-shade);
 }
 
 .buttonColor:hover {
-    background-color: #30B0D0;
-    /*color: black;*/
+    background-color: var(--btn-hover);
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
 
+/* Dark Mode Hacks*/
 #light {
     display: none;
     position: absolute;
