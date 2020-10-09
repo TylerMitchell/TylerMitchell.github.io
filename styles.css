@@ -131,9 +131,18 @@ footer {
     color: var(--nav-text-hover);
 }
 
-@media (pointer: none) {
+#darkModeButton {
+    position: absolute;
+    right:0px;
+    top: 0px;
+    height: 100%;
+    width: 20%;
+    display: none;
+}
+
+@media (pointer: fine) and (min-width: 575px) {
     #darkModeButton {
-        display: none;
+        display: block;
     }
 }
 
