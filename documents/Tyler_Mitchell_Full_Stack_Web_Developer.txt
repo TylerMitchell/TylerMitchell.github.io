@@ -3,19 +3,31 @@ FULL STACK WEB DEVELOPERCONTACT
 
  317.426.0847
  tylermitchellisawesome@gmail.com
- [INSERT WEBSITE HERE]PROFILE
+ http://tylermitchell.github.ioPROFILE
 
-Hi, I’m Tyler. I create new things and connect you to solutions through automation.
-In my work, I believe the best way to innovate is to combine ever-growing experiences with the best tools in the industry and to not shy away from the work. A crucial part of innovation is making sure any solution is sustainable in its implementation. I consider these factors as I forge new paths forward in the areas of quality control, software development, and process improvement.
-I find myself gravitating towards industry research and game design in my spare time. I participate in Global Game Jam, among other game jams, throughout the year. I also enjoy plenty of board games, Magic: The Gathering, No Man’s Sky, and playing with my cat, Beatrice.
-The tools I use are JavaScript, C#, HTML5, CSS, NodeJS, and Unity.SKILLS
+Hi, I’m Tyler. I create new things and utilize automation and Outside-The-Box thinking to help solve your problems.
+I enjoy developing rich multimedia web applications and data driven visualizations. In my work I research and utilize the latest technology and automation to maximize my productivity and pride myself on being efficient. When an application seems difficult to implement, often you just need to step back and look at different tools or technology to save yourself a lot of time and effort. I enjoy learning new tools and ways of thinking and do so very rapidly.
+In my personal time, I find myself gravitating towards web app development and game design in my spare time. I participate in Global Game Jam, among other game jams, throughout the year. I also enjoy plenty of board games, Magic: The Gathering, No Man’s Sky, and playing with my cat, Beatrice.EDUCATION
 
-? ANALYTICAL THINKER
-? ADAPTABLE
-? ORGANIZED
-? DEPENDABLE
-? SELF-MOTIVATED
-? EFFICIENTINDUSTRY EXPERIENCE
+Eleven Fifty Academy
+September 2020-December 2020
+Web Development
+12-week immersive learning program for Software Development taught with industry-guided curriculum, real-world project-based learning, and 500+ hours of logged coding time and training. 
+
+IUPUI
+2008-2012
+Computer Science
+Completed 90 credit hours towards a B.S. degree, but left due to a family health emergency.
+SKILLS
+TechnicalJavaScript (ES8), HTML5, CSS3, Bootstrap4, PERN Stack, React, D3js, SQL, NodeJS, Postgres, Express, Unity3D, C#, Git, HTTP, Web App Development, Full-Stack DevelopmentCompetenciesAnalytical Thinker, Adaptable, Dependable, Organized, Self-Motivated, Efficient
+
+
+INDUSTRY EXPERIENCE
+
+Security Guard
+Securitas, August 2020-Current
+* Control Access to a large warehouse with thousands of employees.
+* Detect and report theft, hostility, and property damage.
 
 Inventory Control Specialist
 Pitney Bowes, June 2019-December 2019
@@ -26,19 +38,23 @@ Pitney Bowes, June 2019-December 2019
 Quality Auditor
 UNFI, May 2017 – February 2019
 * Built auditing software to automatically detect mis-picks and document additional quality errors such as product hanging over pallets and liquids stacked on their sides.
-* Audited all outbound processes, including replenishment, picking, loading, and invoicing.
+* Audited all outbound processes, including replenishment, picking, loading, and inbound.
 
 Freelance Software Developer
 Self-Employed, May 2017- June 2018
 * Created educational minigames in Unity3D and C# to aid in teaching AP Biology.
-* Combined the concepts of personality theory and microeconomics to assist in creating a sociological simulation game to help students maximize social cohesion and economic productivity by using JavaScript (ES6), NodeJS, HTML, and CSS
+* Combined the concepts of personality theory and microeconomics to assist in creating a sociological simulation game to help students maximize social cohesion and economic productivity by using JavaScript, NodeJS, HTML5, and CSS
 
-ICQA Developer (Tier IV Associate)
-Amazon, April 2016 – April 2017
+ICQA Program Developer (Tier IV Associate)
+Amazon, December 2016 – April 2017
+* Developed software to help more efficiently stow inventory.
+* Developed software to automate Excel reports and help managers
+communicate safety issues.
+
 Tier I Associate
-March 2015 – April 2016
-* Increased departmental efficiency with Excel through one-on-one education and workflow demonstrations
-* Crafted new applications to streamline internal processes, including inventory storage, safety communications, and Excel report automation
+Amazon, March 2015 – December 2016
+* Worked every Tier 1 position in the warehouse in every department and every process.
+* Was stationed as Problem Solver by both Inbound and Outbound and was eventually promoted to a Tier IV position.
 Unity 3D / Android Developer
 Vision Three Creative, LLC, March 2014 – October 2014
 * Constructed the user interface of a custom Android application used to control an embedded medical device
@@ -47,13 +63,4 @@ Vision Three Creative, LLC, March 2014 – October 2014
 Freelance Software Developer
 Self-Employed, May 2011 – July 2014
 * Developed AI and pathfinding solutions for all game enemies in Dreamland Delivery using A* and B-Splines in C# for Puca Studios
-* Produced educational Flash games for the Indianapolis Children’s MuseumEDUCATION
-
-IUPUI
-2008-2012
-Computer Science
-Completed 90 credit hours towards a B.S. degree, but left due to a family health emergency.
-
-
-
-
+* Produced educational Flash games for the Indianapolis Children’s Museum

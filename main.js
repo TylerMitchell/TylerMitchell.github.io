@@ -23,7 +23,7 @@ function getProjectData(){
             contextText: {
                 normal: "This is a tool to help you build and optimize your Commander Decks."
             },
-            tags: ["HTML", "CSS", "Javascript", "D3js", "Scryfall", "API"],
+            tags: ["HTML", "CSS", "Javascript", "Bootstrap", "D3js", "Scryfall", "API"],
             link: "https://tylermitchell.github.io/Commander_Deck_Builder/",
             githubLink: "https://github.com/TylerMitchell/Commander_Deck_Builder",
             linksDisabled: false,
@@ -82,30 +82,30 @@ function getProjectData(){
             underConstruction: false
         },
         {
-            imageSrc: "./assets/BlueBadge.png",
-            imageCaption: "Blue Badge TBA",
-            name: "Blue Badge TBA",
+            imageSrc: "./assets/Personary.png",
+            imageCaption: "Personary",
+            name: "Personary",
             contextText: {
-                normal: "Placeholder for what I will make in Blue badge"
+                normal: "An app built for creating and managing Persona's that could be used by Authors or Marketing Companies."
             },
-            tags: ["HTML", "CSS", "Javascript"],
-            link: "",
-            githubLink: "",
-            linksDisabled: true,
-            underConstruction: true
+            tags: ["HTML", "CSS", "Javascript", "Bootstrap", "Postgres", "React", "Express", "NodeJS", "Sequelize", "PERN"],
+            link: "https://personary-client.herokuapp.com/",
+            githubLink: "https://github.com/TylerMitchell/BlueBadgeProjectGroup3ClientSide",
+            linksDisabled: false,
+            underConstruction: false
         },
         {
-            imageSrc: "./assets/RedBadge.png",
-            imageCaption: "Red Badge TBA",
-            name: "Red Badge TBA",
+            imageSrc: "./assets/DateMixUp.png",
+            imageCaption: "Date  MixUp",
+            name: "Date Mixup",
             contextText: {
-                normal: "Placeholder for what I will make in Red badge"
+                normal: "A video speed dating app for meeting people face to face in a fun and safe way!"
             },
-            tags: ["HTML", "CSS", "Javascript"],
-            link: "",
-            githubLink: "",
-            linksDisabled: true,
-            underConstruction: true
+            tags: ["HTML", "CSS", "Javascript", "MaterialUI", "Postgres", "React", "Express", "NodeJS", "Sequelize", "PERN", "WebRTC", "WebSockets"],
+            link: "https://date-mixup.herokuapp.com/",
+            githubLink: "https://github.com/TylerMitchell/date_mixup_client",
+            linksDisabled: false,
+            underConstruction: false
         }
     ];
 }

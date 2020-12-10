@@ -140,7 +140,8 @@ footer {
     display: none;
 }
 
-@media (pointer: fine) and (min-width: 575px) {
+@media (pointer: fine) and (min-width: 575px)
+{
     #darkModeButton {
         display: block;
     }
