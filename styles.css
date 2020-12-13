@@ -131,6 +131,10 @@ footer {
     color: var(--nav-text-hover);
 }
 
+canvas {
+    display: block;
+}
+
 #darkModeButton {
     position: absolute;
     right:0px;

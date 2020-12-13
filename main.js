@@ -4,80 +4,15 @@ function getProjectData(){
     //But for now...
     return [
         {
-            imageSrc: "./assets/ImageVisualizationPrediction.png",
-            imageCaption: "Image Prediction App",
-            name: "Detect Concepts from Images",
+            imageSrc: "./assets/DateMixUp.png",
+            imageCaption: "Date  MixUp",
+            name: "Date Mixup",
             contextText: {
-                normal: "You can choose an image and see what ClarifAI's ML models can recognize and associated probabilities!"
+                normal: "A video speed dating app for meeting people face to face in a fun and safe way!"
             },
-            tags: ["HTML", "CSS", "Javascript", "D3js", "ClarifAI", "API"],
-            link: "https://image-prediction-visualization.web.app/",
-            githubLink: "https://github.com/TylerMitchell/Image_Prediction_Tool",
-            linksDisabled: false,
-            underConstruction: false
-        },
-        {
-            imageSrc: "./assets/CommanderDeckBuilder.png",
-            imageCaption: "MTG Commander Deck Builder",
-            name: "MTG Commander Deck Builder",
-            contextText: {
-                normal: "This is a tool to help you build and optimize your Commander Decks."
-            },
-            tags: ["HTML", "CSS", "Javascript", "Bootstrap", "D3js", "Scryfall", "API"],
-            link: "https://tylermitchell.github.io/Commander_Deck_Builder/",
-            githubLink: "https://github.com/TylerMitchell/Commander_Deck_Builder",
-            linksDisabled: false,
-            underConstruction: false
-        },
-        {
-            imageSrc: "./assets/FakeHulu.png",
-            imageCaption: "Fake Hulu Static Layout Project",
-            name: "Fake Hulu Static Layout Project",
-            contextText: {
-                normal: "I copied Hulu to push my CSS skills"
-            },
-            tags: ["HTML", "CSS"],
-            link: "https://tylermitchell.github.io/staticLayout/",
-            githubLink: "https://github.com/TylerMitchell/staticLayout",
-            linksDisabled: false,
-            underConstruction: false
-        },
-        {
-            imageSrc: "./assets/NewYorkTimesSearch.png",
-            imageCaption: "New York Times Headline Search",
-            name: "New York Times Headline Search",
-            contextText: {
-                normal: "This app allows you to search New York Times Headlines. I like the color Green..."
-            },
-            tags: ["HTML", "CSS", "Javascript", "New York Times", "API"],
-            link: "https://tylermitchell.github.io/NewsSearchApp/index.html",
-            githubLink: "https://github.com/TylerMitchell/NewsSearchApp",
-            linksDisabled: false,
-            underConstruction: false
-        },
-        {
-            imageSrc: "./assets/CSSCreature.png",
-            imageCaption: "CSS Creature",
-            name: "CSS Creature Doodle",
-            contextText: {
-                normal: "I made a weird Creature thing!"
-            },
-            tags: ["HTML", "CSS", "Javascript"],
-            link: "https://codepen.io/TylerMitchellIsAwesome/pen/eYZMozY",
-            githubLink: "https://github.com/TylerMitchell/NewsSearchApp",
-            linksDisabled: false,
-            underConstruction: false
-        },
-        {
-            imageSrc: "./assets/ShootShipsAndDontDie.png",
-            imageCaption: "Shoot Ships and Don't Die",
-            name: "Shoot Ships and Don't Die",
-            contextText: {
-                normal: "Shoot at ships and don't get shot. Pickup powerups to improve your rate of fire or health."
-            },
-            tags: ["Javascript", "Canvas"],
-            link: "https://tylermitchell.github.io/ShootShipsAndDontDie/",
-            githubLink: "https://github.com/TylerMitchell/ShootShipsAndDontDie",
+            tags: ["HTML", "CSS", "Javascript", "MaterialUI", "Postgres", "React", "Express", "NodeJS", "Sequelize", "PERN", "WebRTC", "WebSockets"],
+            link: "https://date-mixup.herokuapp.com/",
+            githubLink: "https://github.com/TylerMitchell/date_mixup_client",
             linksDisabled: false,
             underConstruction: false
         },
@@ -95,15 +30,80 @@ function getProjectData(){
             underConstruction: false
         },
         {
-            imageSrc: "./assets/DateMixUp.png",
-            imageCaption: "Date  MixUp",
-            name: "Date Mixup",
+            imageSrc: "./assets/CommanderDeckBuilder.png",
+            imageCaption: "MTG Commander Deck Builder",
+            name: "MTG Commander Deck Builder",
             contextText: {
-                normal: "A video speed dating app for meeting people face to face in a fun and safe way!"
+                normal: "This is a tool to help you build and optimize your Commander Decks."
             },
-            tags: ["HTML", "CSS", "Javascript", "MaterialUI", "Postgres", "React", "Express", "NodeJS", "Sequelize", "PERN", "WebRTC", "WebSockets"],
-            link: "https://date-mixup.herokuapp.com/",
-            githubLink: "https://github.com/TylerMitchell/date_mixup_client",
+            tags: ["HTML", "CSS", "Javascript", "Bootstrap", "D3js", "Scryfall", "API"],
+            link: "https://tylermitchell.github.io/Commander_Deck_Builder/",
+            githubLink: "https://github.com/TylerMitchell/Commander_Deck_Builder",
+            linksDisabled: false,
+            underConstruction: false
+        },
+        {
+            imageSrc: "./assets/ShootShipsAndDontDie.png",
+            imageCaption: "Shoot Ships and Don't Die",
+            name: "Shoot Ships and Don't Die",
+            contextText: {
+                normal: "Shoot at ships and don't get shot. Pickup powerups to improve your rate of fire or health."
+            },
+            tags: ["Javascript", "Canvas"],
+            link: "https://tylermitchell.github.io/ShootShipsAndDontDie/",
+            githubLink: "https://github.com/TylerMitchell/ShootShipsAndDontDie",
+            linksDisabled: false,
+            underConstruction: false
+        },
+        {
+            imageSrc: "./assets/ImageVisualizationPrediction.png",
+            imageCaption: "Image Prediction App",
+            name: "Detect Concepts from Images",
+            contextText: {
+                normal: "You can choose an image and see what ClarifAI's ML models can recognize and associated probabilities!"
+            },
+            tags: ["HTML", "CSS", "Javascript", "D3js", "ClarifAI", "API"],
+            link: "https://image-prediction-visualization.web.app/",
+            githubLink: "https://github.com/TylerMitchell/Image_Prediction_Tool",
+            linksDisabled: false,
+            underConstruction: false
+        },
+        {
+            imageSrc: "./assets/NewYorkTimesSearch.png",
+            imageCaption: "New York Times Headline Search",
+            name: "New York Times Headline Search",
+            contextText: {
+                normal: "This app allows you to search New York Times Headlines. I like the color Green..."
+            },
+            tags: ["HTML", "CSS", "Javascript", "New York Times", "API"],
+            link: "https://tylermitchell.github.io/NewsSearchApp/index.html",
+            githubLink: "https://github.com/TylerMitchell/NewsSearchApp",
+            linksDisabled: false,
+            underConstruction: false
+        },
+        {
+            imageSrc: "./assets/FakeHulu.png",
+            imageCaption: "Fake Hulu Static Layout Project",
+            name: "Fake Hulu Static Layout Project",
+            contextText: {
+                normal: "I copied Hulu to push my CSS skills"
+            },
+            tags: ["HTML", "CSS"],
+            link: "https://tylermitchell.github.io/staticLayout/",
+            githubLink: "https://github.com/TylerMitchell/staticLayout",
+            linksDisabled: false,
+            underConstruction: false
+        },
+        {
+            imageSrc: "./assets/CSSCreature.png",
+            imageCaption: "CSS Creature",
+            name: "CSS Creature Doodle",
+            contextText: {
+                normal: "I made a weird Creature thing!"
+            },
+            tags: ["HTML", "CSS", "Javascript"],
+            link: "https://codepen.io/TylerMitchellIsAwesome/pen/eYZMozY",
+            githubLink: "https://github.com/TylerMitchell/NewsSearchApp",
             linksDisabled: false,
             underConstruction: false
         }
@@ -201,3 +201,66 @@ document.querySelector("#darkModeButton").addEventListener('click', (e) => {
         e.target.innerText = "Try the New Dark Mode!";
     }
 });
+
+class BorderRenderer{
+    constructor(){
+
+    }
+
+    trianglePattern = (canvas, height, bottomColor) => {
+        canvas.width = window.innerWidth;
+        canvas.height = height;
+        let ctx = canvas.getContext('2d');
+
+        ctx.fillStyle = bottomColor;
+        let stampW = height*2;
+        let halfStampW = stampW/2;
+        for( let i = 0; i< canvas.width/stampW; i++ ){
+            ctx.beginPath();
+            let startX = stampW*i;
+            let endX = stampW*i +halfStampW;
+            ctx.moveTo(startX, 0);
+            ctx.lineTo(endX, halfStampW);
+            ctx.lineTo(startX, halfStampW);
+            ctx.fill();
+            ctx.beginPath();
+            ctx.moveTo(startX + stampW, 0);
+            ctx.lineTo(startX + halfStampW, halfStampW);
+            ctx.lineTo(startX + stampW, stampW);
+            ctx.fill();
+        }
+    }
+
+    squarePattern = (canvas, height, bottomColor) => {
+        canvas.width = window.innerWidth;
+        canvas.height = height;
+        let ctx = canvas.getContext('2d');
+
+        ctx.fillStyle = bottomColor;
+        let w = canvas.width;
+        let h = canvas.height;
+        for(let i=0; i < (w/h); i++){
+            ctx.fillRect(h*2*i, 0, h, h);
+        }
+    }
+
+    circlePattern = (canvas, height, circleColor, spacing) => {
+        canvas.width = window.innerWidth;
+        canvas.height = 30;
+        let ctx = canvas.getContext('2d');
+        ctx.fillStyle = circleColor;
+        let w = canvas.width;
+        let halfH = height/2;
+        let halfS = spacing/2;
+        for(let i=0; i < w/height; i++){
+            ctx.beginPath();
+            ctx.arc( halfH + height*i, halfH, halfH-halfS, 0, Math.PI*2);
+            ctx.fill();
+        }
+    }
+}
+
+let renderer = new BorderRenderer();
+renderer.squarePattern( document.getElementById("aboutProjectsBorder"), 30, "#FDCF00");
+renderer.trianglePattern( document.getElementById("projectsContactBorder"), 30, "green");
+renderer.circlePattern( document.getElementById("contactFooterBorder"), 30, "#41C4DC", 14);
